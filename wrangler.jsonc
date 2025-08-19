@@ -9,7 +9,13 @@
 	"compatibility_date": "2025-08-16",
 	"observability": {
 		"enabled": true
-	}
+	},
+
+	// KV binding
+	"kv_namespaces": [
+		{ "binding": "REDDIT_CACHE", "id": "2967d26d266c464bb27fa29f5099a60c"}
+	]
+}
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
@@ -40,4 +46,3 @@
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
 	 */
 	// "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
-}
